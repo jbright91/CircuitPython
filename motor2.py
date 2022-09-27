@@ -20,7 +20,7 @@ btn2.pull = Pull.UP
 while True:
     if not btn.value:
         print("BTN is down")
-        for angle in range(0, 180, 5):  # 0 - 180 degrees, 5 degrees at a time
+        for angle in range(0, 180, 9):  # 0 - 180 degrees, 5 degrees at a time
             my_servo.angle = angle 
             time.sleep(0.1)
     else:
@@ -28,7 +28,7 @@ while True:
         pass
     if not btn2.value:
         print("BTN2 is down")
-        for angle in range(180,0, -5):  # 0 - 180 degrees, -5 degrees at a time
+        for angle in range(180,0, -9):  # 0 - 180 degrees, -5 degrees at a time
             my_servo.angle = angle 
             time.sleep(0.1)
     else:
