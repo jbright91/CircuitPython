@@ -9,13 +9,12 @@ This repository will actually serve as a aid to help you get started with your o
 ---
 
 ## Hello_CircuitPython
-## credit: 
 
 ### Description & Code
-Description goes here
+I am making a motor spin 180 degrees, with two buttons
 
-Here's how you make code look like code:
 
+## credit: 
 ```python
 import time
 import board
