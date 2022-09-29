@@ -71,11 +71,12 @@ https://user-images.githubusercontent.com/71406948/193132815-3492bdfc-6ba2-4faf-
 
 
 ### Wiring
-Make an account with your google ID at [tinkercad.com](https://www.tinkercad.com/learn/circuits), and use "TinkerCad Circuits to make a wiring diagram."  It's really easy!  
-Then post an image here.   [here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
+
+![Capture](https://user-images.githubusercontent.com/71406948/193138836-dee09a13-41f3-43f1-9621-6a9df615ab66.PNG)
 
 ### Reflection
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience?  Your ultimate goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person.
+This was really hard because I didnt know how to start with the code, but thanks to my fellow classmate [Will H](https://github.com/willhunt914/CirclePython) for the code! I got it done, but another problem to where the motor wouldnt turn right, but thanks to my teacher I got that figured out.
+
 
 
 
