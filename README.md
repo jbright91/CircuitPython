@@ -10,12 +10,16 @@ This repository will actually serve as a aid to help you get started with your o
 
 ## Hello_CircuitPython
 
-### Description & Code
+### Description
 I am making a motor spin 180 degrees, with two buttons
 
 
-## credit: 
+### code: 
 ```python
+# Jabari Bright
+# CircuitPython Servo
+# Pressing one button moves a servo clockwise, pressing the second button moves it back.
+
 import time
 import board
 from digitalio import DigitalInOut, Direction, Pull
@@ -56,6 +60,7 @@ while True:
     time.sleep(0.1) # sleep for debounce
 
 ```
+Thanks [Will H](https://github.com/willhunt914/CirclePython) for the code!
 
 
 ### Evidence
