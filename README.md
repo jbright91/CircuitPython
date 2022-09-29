@@ -83,22 +83,33 @@ This was really hard because I didnt know how to start with the code, but thanks
 
 ## Hello_CircuitPython
 
-### Description & Code
+### Description:
+
+### Code:
 
 ```python
-Code goes here
+import board
+import neopixel
+
+dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
+dot.brightness = 0.5 
+
+print("Make it red!")
+
+while True:
+    dot.fill((0, 0,255))
 
 ```
 
 ### Evidence
 
-Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/71406948/193141862-44da5cec-7765-4f7d-a916-1f77c3dbe670.gif)
+
 
 ### Wiring
-
+No wiring
 ### Reflection
-
-
+it wasnt really hard all you really had to do was copy a code from the assighnment code on canvas:https://cvilleschools.instructure.com/courses/37129/assignments/493863
 
 
 ## CircuitPython_LCD
