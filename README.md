@@ -65,8 +65,10 @@ Thanks [Will H](https://github.com/willhunt914/CirclePython) for the code!
 
 ### Evidence
 
+https://user-images.githubusercontent.com/71406948/193132815-3492bdfc-6ba2-4faf-86af-ff938ce07ed9.mov
 
-![spinningMetro_Optimized](https://user-images.githubusercontent.com/54641488/192549584-18285130-2e3b-4631-8005-0792c2942f73.gif)
+
+
 
 
 And here is how you should give image credit to someone, if you use their work:
