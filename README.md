@@ -4,7 +4,7 @@ This repository will actually serve as a aid to help you get started with your o
 * [Table of Contents](#TableOfContents)
 * [CircuitPython_Servo](#Circuit{ython_Servo)
 * [Hello_CircuitPython](#Hello_CircuitPython)
-* [CircuitPython_LCD](#CircuitPython_LCD)
+* [Motor_Control](#Motor_Control)
 * [NextAssignmentGoesHere](#NextAssignment)
 ---
 
@@ -112,7 +112,7 @@ No wiring
 it wasnt really hard all you really had to do was copy a code from the assighnment code on canvas:https://cvilleschools.instructure.com/courses/37129/assignments/493863
 
 
-## CircuitPython_LCD
+## Motor_Control
 
 ### Description & Code
 
