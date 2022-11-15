@@ -136,7 +136,7 @@ while True:
     time.sleep(.1)   
 
 ```
-Thanks [Mason D](https://github.com/MasonD552),  [Kazuo S](https://github.com/kshinoz98/CircuitPython),  for the code!
+Thanks [Mason D](https://github.com/MasonD552),  [Kazuo S](https://github.com/kshinoz98/CircuitPython), [Grant G](https://github.com/ggastin30/CPython)  for the code!
 
 ### Evidence
 
