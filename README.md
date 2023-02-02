@@ -151,32 +151,33 @@ Pictures / Gifs of your work should go here.  You need to communicate what your 
 
 
 
-### Robot_Arm
+## Robot_Arm
 
-## Description
+### Description
+[Cooper M](https://github.com/MasonD552/Circuit-Python) and [Jabari B](https://github.com/jbright91/CircuitPython) is making a anthropomorphic robot arm that plays rock paper scissors with you 
 
-## Code
+### Code
 
 ```python
 Code goes here
 
 ```
 
-## Evidence
+### Evidence
 
-## Wiring
+### Wiring
 
-## Reflection
-
-
+### Reflection
 
 
 
-### NextAssignment
 
-## Description
 
-## Code
+## NextAssignment
+
+### Description
+
+### Code
 
 ```python
 Code goes here
