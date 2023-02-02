@@ -5,6 +5,7 @@ This repository will actually serve as a aid to help you get started with your o
 * [CircuitPython_Servo](#Circuit{ython_Servo)
 * [Hello_CircuitPython](#Hello_CircuitPython)
 * [Motor_Control](#Motor_Control)
+* [Robot_Arm](#Robot_Arm)
 * [NextAssignmentGoesHere](#NextAssignment)
 ---
 
@@ -151,6 +152,25 @@ Pictures / Gifs of your work should go here.  You need to communicate what your 
 
 
 ## NextAssignment
+
+### Description & Code
+
+```python
+Code goes here
+
+```
+
+### Evidence
+
+### Wiring
+
+### Reflection
+
+
+
+
+
+## Robot_Arm
 
 ### Description & Code
 
