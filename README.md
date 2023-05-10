@@ -515,7 +515,7 @@ while True:
 ### Reflection
 
 
-## Temperature sensor
+## Temperature_++++sensor
 
 ### the project is that you have to wire up a temperature sensor and also make the temperature show up on an LCD screen
 
