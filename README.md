@@ -583,7 +583,7 @@ while True:
 ### Evidence
 
 https://github.com/jbright91/CircuitPython/assets/71406948/ad5389bb-fb2a-4928-8c5d-3fcc9825bde4
-
+Thanks [Mr.Helmstetter](https://github.com/Helmstk1) for the code!
 
 
 ### Wiring
