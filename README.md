@@ -582,6 +582,10 @@ while True:
 
 ### Evidence
 
+https://github.com/jbright91/CircuitPython/assets/71406948/ad5389bb-fb2a-4928-8c5d-3fcc9825bde4
+
+
+
 ### Wiring
 ![TempSens](https://github.com/jbright91/CircuitPython/assets/71406948/6b45dac5-ca7b-4386-9b9f-045d047813b3)
 
