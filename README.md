@@ -583,5 +583,6 @@ while True:
 ### Evidence
 
 ### Wiring
+![TempSens](https://github.com/jbright91/CircuitPython/assets/71406948/6b45dac5-ca7b-4386-9b9f-045d047813b3)
 
 ### Reflection
