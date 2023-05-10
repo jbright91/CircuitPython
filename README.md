@@ -7,6 +7,7 @@ This repository will actually serve as a aid to help you get started with your o
 * [Motor_Control](#Motor_Control)
 * [Robot_Arm](#Robot_Arm)
 * [NextAssignmentGoesHere](#NextAssignment)
+*  [Temperature sensor](#Temperature sensor)
 ---
 
 ## CircuitPython_Servo
