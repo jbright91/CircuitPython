@@ -391,29 +391,6 @@ while True:
 
 
 
-
-
-## NextAssignment
-
-### Description
-
-### Code
-
-```python
-Code goes here
-
-```
-
-### Evidence
-
-### Wiring
-
-### Reflection
-
-
-
-
-
 ## Project PID
 
 ### Me and 
@@ -590,3 +567,113 @@ https://github.com/jbright91/CircuitPython/assets/71406948/ad5389bb-fb2a-4928-8c
 
 ### Reflection
 this assighnment was somewhat easy, i had trouble finding code so i aksed a teacher and they helped me out, and in the end we got that done, but there was another problem,there was something going on with my computer to where everytime I plug my board up,it wouldnt connect, so i had to ask the teacher for some help, it took 3 teachers to figure out was was wrong. we tried switching out the board but we eneded up realizing that wasnt the problem, so we tried plugging the board soewhere else and it worked. what I  learned is that you can rely on your teachers if you need help. 
+
+
+
+## rotary_Encoder
+
+### I make a a traffic light with a rotary encoder
+
+### Code
+
+```python
+
+import time
+import rotaryio
+import board
+from lcd.lcd import LCD
+from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
+from digitalio import DigitalInOut, Direction, Pull
+
+
+
+encoder = rotaryio.IncrementalEncoder(board.D3, board.D2)
+last_position = 0
+btn = DigitalInOut(board.D1)
+btn.direction = Direction.INPUT
+btn.pull = Pull.UP
+state = 0
+Buttonyep = 1
+
+
+i2c = board.I2C()
+lcd = LCD(I2CPCF8574Interface(i2c, 0x27), num_rows=2, num_cols=16)
+
+
+ledGreen = DigitalInOut(board.D8)
+ledYellow = DigitalInOut(board.D9)
+ledRed = DigitalInOut(board.D10)
+ledGreen.direction = Direction.OUTPUT
+ledYellow.direction = Direction.OUTPUT
+ledRed.direction = Direction.OUTPUT
+
+
+while True:
+    position = encoder.position
+    if position != last_position:
+        if position > last_position:
+            state = state + 1
+        elif position < last_position:
+            state = state - 1
+        if state > 2:
+            state = 2
+        if state < 0:
+            state = 0
+        print(state)
+        if state == 0: 
+            lcd.clear()
+            lcd.set_cursor_pos(0, 0)
+            lcd.print("Go")
+            ledGreen.value = True
+            ledRed.value = False
+            ledYellow.value = False
+        elif state == 1:
+            lcd.clear()
+            lcd.set_cursor_pos(0, 0)
+            lcd.print("Caution")
+            ledYellow.value = True
+            ledRed.value = False
+            ledGreen.value = False
+        elif state == 2:
+            lcd.clear()
+            lcd.set_cursor_pos(0, 0)
+            lcd.print("Stop")
+            ledRed.value = True
+            ledGreen.value = False
+            ledYellow.value = False
+    if btn.value == 1:
+        time.sleep(.1)
+        Buttonyep = 1
+    last_position = position
+
+```
+
+
+
+### Evidence
+https://github.com/jbright91/CircuitPython/assets/71406948/e87e11d2-c170-470a-adac-3f3846f3883b
+
+### Wiring
+
+### Reflection
+
+
+## NextAssignment
+
+### Description
+
+### Code
+
+```python
+Code goes here
+
+```
+
+### Evidence
+
+### Wiring
+
+### Reflection
+
+
+
