@@ -647,16 +647,17 @@ while True:
     last_position = position
 
 ```
-
+thanks  [Nick B](https://github.com/nbednar2929/CircuitPython#Rotary_Encoder) for the code and rotary wiring!
 
 
 ### Evidence
 https://github.com/jbright91/CircuitPython/assets/71406948/e87e11d2-c170-470a-adac-3f3846f3883b
 
 ### Wiring
+![rotary](https://github.com/jbright91/CircuitPython/assets/71406948/ac9461ae-598b-49d8-b356-3bc31d412f54)
 
 ### Reflection
-
+wasnt really difficult, i used a fellow students wiring and code his name is [Nick B](https://github.com/nbednar2929/CircuitPython#Rotary_Encoder), so thanks to them i got this done, The only difficult thing was trying to get led lights to match the traffic light singals on the LCD screen and like nick B did in there project, but it was difficult than expected, i tried asking a teacher but that didnt work, so after trying and trying, i just didnt do the Led thing and ended up just letting the lcd screen show the traffic light signals, other than that no other difficulties, project made me realize that its ok to use other peoples code as long as you give credit to them.
 
 ## NextAssignment
 
