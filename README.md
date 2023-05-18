@@ -660,6 +660,48 @@ https://github.com/jbright91/CircuitPython/assets/71406948/e87e11d2-c170-470a-ad
 ### Reflection
 wasnt really difficult, i used a fellow students wiring and code his name is [Nick B](https://github.com/nbednar2929/CircuitPython#Rotary_Encoder), so thanks to them i got this done, The only difficult thing was trying to get led lights to match the traffic light singals on the LCD screen and like nick B did in there project, but it was difficult than expected, i tried asking a teacher but that didnt work, so after trying and trying, i just didnt do the Led thing and ended up just letting the lcd screen show the traffic light signals, other than that no other difficulties, project made me realize that its ok to use other peoples code as long as you give credit to them.
 
+## Photointerrupters
+
+### Description
+  wire up a photointerrupter and make it  keep track of how many times it was interrupted
+### Code
+
+```python
+## Jabari Bright Photointerrupter
+#Thanks Mason Divers to River Lewis for the code 
+#rivques
+import time # Import the time module for time-related functions
+import digitalio # Import the digitalio module for working with digital I/O pins
+import board # Import the board module for working with board-specific pin names
+
+# Set up a digital input pin for the photoI sensor
+photoI = digitalio.DigitalInOut(board.D7)
+photoI.direction = digitalio.Direction.INPUT # Set the direction of the pin as input
+photoI.pull = digitalio.Pull.UP # Enable the internal pull-up resistor for the pin
+
+last_photoI = True # Initialize the previous state of the photoI sensor as True (HIGH)
+last_update = -4 # Initialize the last update time as -4 seconds ago
+
+photoICrosses = 0 # Initialize the counter for photoI sensor crossings as 0
+
+while True: # Start an infinite loop
+    if time.monotonic() - last_update > 4: # Check if 4 seconds have passed since the last update
+        print(f"The number of crosses is {photoICrosses}") # Print the number of crossings
+        last_update = time.monotonic() # Update the last update time to the current time
+
+    if last_photoI != photoI.value and not photoI.value: # Check if the state of the photoI sensor has changed from HIGH to LOW (crossing detected)
+        photoICrosses += 1 # Increment the counter for photoI sensor crossings
+    last_photoI = photoI.value # Update the previous state of the photoI sensor with the current state
+
+```
+
+### Evidence
+
+### Wiring
+
+### Reflection
+
+
 ## NextAssignment
 
 ### Description
@@ -676,6 +718,7 @@ Code goes here
 ### Wiring
 
 ### Reflection
+
 
 
 
