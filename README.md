@@ -704,6 +704,7 @@ https://github.com/jbright91/CircuitPython/assets/71406948/e78bb2e8-9c2b-47b6-bc
 
 
 ### Wiring
+ ![photointerr](https://github.com/jbright91/CircuitPython/assets/71406948/a4b371d0-9521-428b-9cd1-a1993a9a7061)
 
 ### Reflection
  the assignment wasnt hard, the canvas page for this project basically told you what to do, and i got the code from from [mason D](https://github.com/MasonD552/Engineering-3-Notebook#CircuitPython_Photointerrupter) and [river L](https://github.com/rivques/CircuitPython/blob/master/photointerrupter.py)
