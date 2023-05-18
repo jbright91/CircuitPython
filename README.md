@@ -8,6 +8,7 @@ This repository will actually serve as a aid to help you get started with your o
 * [Robot_Arm](#Robot_Arm)
 *  [Temperature_sensor](#Temperature_sensor)
 *  [rotary_Encoder](#rotary_Encoder)
+*  [Photointerrupters](#Photointerrupters)
 *  [NextAssignmentGoesHere](#NextAssignment)
 ---
 
@@ -668,7 +669,7 @@ wasnt really difficult, i used a fellow students wiring and code his name is [Ni
 
 ```python
 ## Jabari Bright Photointerrupter
-#Thanks Mason Divers to River Lewis for the code 
+#Thanks Mason Divers and  River Lewis for the code 
 #rivques
 import time # Import the time module for time-related functions
 import digitalio # Import the digitalio module for working with digital I/O pins
@@ -694,13 +695,15 @@ while True: # Start an infinite loop
     last_photoI = photoI.value # Update the previous state of the photoI sensor with the current state
 
 ```
+thanks  [mason D](https://github.com/MasonD552/Engineering-3-Notebook#CircuitPython_Photointerrupter) and [river L](https://github.com/rivques/CircuitPython/blob/master/photointerrupter.py)
+ for code
 
 ### Evidence
 
 ### Wiring
 
 ### Reflection
-
+ the assignment wasnt hard, the canvas page for this project basically told you what to do, and i got the code from from [mason D](https://github.com/MasonD552/Engineering-3-Notebook#CircuitPython_Photointerrupter) and [river L](https://github.com/rivques/CircuitPython/blob/master/photointerrupter.py)
 
 ## NextAssignment
 
