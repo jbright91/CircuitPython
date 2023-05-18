@@ -10,6 +10,7 @@ This repository will actually serve as a aid to help you get started with your o
 *  [rotary_Encoder](#rotary_Encoder)
 *  [Photointerrupters](#Photointerrupters)
 *  [NextAssignmentGoesHere](#NextAssignment)
+*  [Project PID](#Project PID)
 ---
 
 ## CircuitPython_Servo
