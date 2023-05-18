@@ -10,7 +10,7 @@ This repository will actually serve as a aid to help you get started with your o
 *  [rotary_Encoder](#rotary_Encoder)
 *  [Photointerrupters](#Photointerrupters)
 *  [NextAssignmentGoesHere](#NextAssignment)
-*  [Project PID](#Project PID)
+*  [Project_PID](#Project_PID)
 ---
 
 ## CircuitPython_Servo
@@ -394,7 +394,7 @@ while True:
 
 
 
-## Project PID
+## Project_PID
 
 ### Me and 
 
